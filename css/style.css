@@ -1,0 +1,41 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content horizontally */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the card container */
+.card {
+    width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card image */
+.card-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Style the card title */
+.card-titulo {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardCarrito{
+    width: 100px;
+    height: 200px;
+padding-right: 50px;
+    margin: 50px;
+}
+
